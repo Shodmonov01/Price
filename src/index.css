@@ -9,3 +9,36 @@ html, body {
 }
 
 
+@media print {
+  body {
+      -webkit-print-color-adjust: exact; /* Для браузера Chrome */
+      print-color-adjust: exact; /* Общий стандарт */
+  }
+
+  /* Пример: Убедитесь, что фон и цвет текста остаются видимыми */
+  .bg-green-600 {
+      background-color: #16a34a !important; /* Цвет сохраняется */
+      color: white !important;
+  }
+
+  .text-white {
+      color: white !important;
+  }
+
+  .hover\:bg-blue-600 {
+      background-color: #2563eb !important;
+  }
+
+  .bg-blue-500 {
+      background-color: #3b82f6 !important;
+  }
+
+  .bg-gray-100 {
+      background-color: #f3f4f6 !important;
+  }
+
+  /* Стили для таблиц */
+  table, th, td {
+      border: 1px solid black !important;
+  }
+}
