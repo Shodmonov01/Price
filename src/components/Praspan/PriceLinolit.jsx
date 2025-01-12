@@ -73,7 +73,10 @@ function PriceLinolit() {
             </table>
 
 
-            <table className="w-full border-collapse border border-black">
+            <h1 className='mt-20 text-center font-bold'>Наполнители</h1>
+
+
+            <table className="w-full border-collapse border border-black mt-3">
                 <thead className="bg-gray-100">
                     <tr>
                         <th className="border border-black px-4 py-2 text-center text-[14px]" rowSpan="2">
